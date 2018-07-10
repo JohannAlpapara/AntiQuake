@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO ANTIQUAKE"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/abc_ic_star_black_16dp" />
+</LinearLayout>
